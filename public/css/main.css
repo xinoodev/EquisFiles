@@ -515,7 +515,21 @@ body {
 
 @media (min-width: 1280px) {
   .container {
-    max-width: 1400px;
+    max-width: 90%;
+    gap: 10rem;
+    padding: 0;
+  }
+  
+  .image-vector {
+    height: 600px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .container {
+    max-width: 85%;
+    gap: 16rem;
+    padding: 0;
   }
   
   .image-vector {
